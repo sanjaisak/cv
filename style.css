@@ -1,15 +1,18 @@
 *{
     padding: 0;
     margin: 0;
+
 }
 body{
     overflow: hidden;
 }
+
+
 #game{
     height: 100vh;
     width: 100vw;
 margin: auto;
-overflow: scroll;
+overflow: hidden;
 }
 #ground{
 
@@ -54,10 +57,10 @@ overflow: scroll;
 }
 #ground #post{
     width: 25.5em;
-    height: 28.5em;
+    height: 26.5em;
     position: fixed;
     z-index: 1;
-    bottom:9vh;
+    bottom:8vh;
     right: 0vw;
    
 }
@@ -264,6 +267,7 @@ position:absolute;
     right:3vw;
     bottom:18vh;
     width: 64vw;
+    height: 60vh;
     padding: 30px;
     color: rgb(0, 0, 0);
   
@@ -272,7 +276,7 @@ position:absolute;
     z-index: 2;
 }
 #awards .box h3{
-    font-size: 2.1vw;
+    font-size: 1.9vw;
     text-align: center;
     padding: 2px;
     font-family: 'Quicksand', sans-serif;
@@ -280,11 +284,11 @@ position:absolute;
    
 }
 #awards .box li{
-    font-size: 1.2vw;
-    padding: 6px;
+    font-size: 1.0vw;
+    padding: 0.5vh;
 }
 #awards .box ul{
-    padding: 2px;
+    padding: 0.2vh;
     padding-left:25px ;
     font-family: 'Quicksand', sans-serif;
 }
