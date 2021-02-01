@@ -30,6 +30,7 @@ overflow: hidden;
     background: rgb(204,237,255);
     background: linear-gradient(180deg, rgba(204,237,255,1) 0%, rgba(242,253,255,1) 100%); 
     z-index: 1;
+  overflow:hidden;
 
 }
 #boy{
