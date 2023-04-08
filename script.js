@@ -33,7 +33,7 @@ function ball() {
     if (music1 == 0) {
         var audio = new Audio('music.mp3');
         audio.play();
-        music1 = 1;
+        audio.volume = 0.02;        music1 = 1;
     }
     document.getElementById("arrow").style.display = "block";
     document.getElementById("arrow1").style.display = "block";
@@ -293,7 +293,7 @@ document.addEventListener("keydown", function(event) {
         }
     }
 })
-var text = ["developer", "designer", "editor"];
+var text = ["Front End Developer", "Designer","Foodie"];
 var counter = 0;
 var elem = document.getElementById("changeText");
 var inst = setInterval(change, 1000);
@@ -340,10 +340,10 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['Html', 'Css', 'Js', 'Angular', 'Ionic 5', 'Java EE', 'MySQL'],
+        labels: [ 'Type Script', 'Java Script', 'Angular','Nest Js', 'Ionic', 'Jest', 'Jenkins'],
         datasets: [{
             label: 'Skill Level',
-            data: [90, 90, 70, 60, 60, 70, 80],
+            data: [90, 90, 90, 70, 60, 90, 60],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -369,7 +369,8 @@ var myChart = new Chart(ctx, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    max: 100
                 }
             }]
         }
